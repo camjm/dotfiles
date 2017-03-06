@@ -4,9 +4,9 @@
 	name = Cam
 	email = EMAIL
 [core]
-  autocrlf = true
-  excludesfile = ~/.gitignore_global
-  whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+	autocrlf = true
+	excludesfile = ~/.gitignore_global
+	whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 [push]
 	default = simple
 [credential]
@@ -24,7 +24,7 @@
 
 
 [merge]
-  log = true
+	log = true
 	tool = tortoisemerge # controls which tool is used by git-mergetool cli
 [mergetool]
 	prompt = false
@@ -37,31 +37,31 @@
 
 
 [alias]
-  br = branch
-  ci = commit
-  co = checkout
-  df = diff
-  g = grep -I
-  lg = log -p
-  pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
-  rb = rbranch
-  rv = review
-  st = status
+	br = branch
+	ci = commit
+	co = checkout
+	df = diff
+	g = grep -I
+	lg = log -p
+	pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
+	rb = rbranch
+	rv = review
+	st = status
 
 
 [color]
-  ui = auto
+	ui = auto
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 	upstream = cyan
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
