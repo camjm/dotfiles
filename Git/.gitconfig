@@ -37,7 +37,7 @@
 
 
 [alias]
-	br = branch
+	br = branch -vv
 	ci = commit
 	co = checkout
 	df = diff
@@ -46,7 +46,7 @@
 	pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
 	rb = rbranch
 	rv = review
-	st = status
+	st = status -s
 
 
 [color]
