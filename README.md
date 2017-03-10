@@ -7,8 +7,8 @@
   - [.gitconfig](/Git/.gitconfig)
   - [.gitignore](/Git/.gitignore)
 - Terminal
-  - [Mintty](/Bash/mintty.md)
-  - [.minttyrc](/Bash/.minttyrc)
+  - [Mintty](/Terminal/mintty.md)
+  - [.minttyrc](/Terminal/.minttyrc)
 - Atom
   - [Plugin List](/Atom/plugins.md)
   - [Settings](/Atom/config.cson)
