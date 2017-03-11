@@ -28,7 +28,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('install', ['copy:git']);
+  grunt.registerTask('install', ['copy:git', 'copy:terminal']);
   grunt.registerTask('default', ['install']);
 
 };
