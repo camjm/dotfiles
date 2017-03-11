@@ -20,6 +20,10 @@ module.exports = function(grunt) {
             return grunt.template.process(content, {data: user});
           }
         }
+      },
+      terminal: {
+        src: 'Terminal/.minttyrc',
+        dest: homePath + '.minttyrc'
       }
     }
   });
