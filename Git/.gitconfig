@@ -1,8 +1,8 @@
 #C:\Users\Cam\.gitconfig
 
 [user]
-	name = Cam
-	email = EMAIL
+	name = <%= name %>
+	email = <%= email %>
 [core]
 	autocrlf = true
 	excludesfile = ~/.gitignore_global

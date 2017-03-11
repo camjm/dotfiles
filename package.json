@@ -1,0 +1,25 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "dotfiles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camjm/dotfiles.git"
+  },
+  "keywords": [
+    "dotfiles",
+    "git",
+    "atom",
+    "terminal"
+  ],
+  "author": "Cam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camjm/dotfiles/issues"
+  },
+  "homepage": "https://github.com/camjm/dotfiles#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}
